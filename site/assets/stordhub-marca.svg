@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 112" fill="none">
+  <title>Cubo de conexões do StordHub</title>
+  <defs>
+    <linearGradient id="cube" x1="15" y1="10" x2="95" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#00CEC9"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#cube)" stroke-width="3" stroke-linejoin="round">
+    <path d="m55 10 40 23-40 23-40-23Z" fill="#6C5CE7" fill-opacity=".08"/>
+    <path d="m15 33 40 23v46L15 79Z" fill="#6C5CE7" fill-opacity=".05"/>
+    <path d="m55 56 40-23v46l-40 23Z" fill="#00CEC9" fill-opacity=".05"/>
+  </g>
+  <g stroke="url(#cube)" stroke-width="1.5" opacity=".25">
+    <path d="M55 10v46M55 10l40 69M15 33l80 46M95 33 15 79M55 10 15 79"/>
+  </g>
+  <circle cx="55" cy="10" r="5" fill="#6C5CE7"/>
+  <circle cx="15" cy="33" r="5" fill="#7B6FEA"/>
+  <circle cx="95" cy="33" r="5" fill="#00CEC9"/>
+  <circle cx="15" cy="79" r="4.5" fill="#8A7DED"/>
+  <circle cx="95" cy="79" r="4.5" fill="#00CEC9"/>
+  <circle cx="55" cy="102" r="5" fill="#00CEC9"/>
+  <circle cx="55" cy="56" r="5" fill="#6C5CE7"/>
+  <circle cx="55" cy="56" r="2.5" fill="#F8FAFC"/>
+</svg>

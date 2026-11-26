@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101016">
+  <meta name="description" content="Enzo Montinegro. Galeria e projetos em uma experiência de rolagem.">
+  <title>Enzo Montinegro — Portfólio</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="motion.css">
+  <script src="motion.js" defer></script>
+</head>
+<body>
+  <canvas class="site-atmosphere" aria-hidden="true"></canvas>
+  <a href="#retrato" class="skip-link">Pular para o início</a>
+  <header class="header">
+    <a class="home" href="#retrato" aria-label="Enzo Montinegro, início">
+      <svg class="home-script" viewBox="17 16 559 233" aria-hidden="true"><use href="#enzo-lettering"/></svg>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#galeria">Galeria</a>
+      <a href="#stordhub">StordHub</a>
+      <a href="#arcor">Arcor</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="retrato" class="intro" aria-labelledby="nome">
+      <h1 id="nome" class="sr-only">Enzo Montinegro</h1>
+      <div class="intro-sticky">
+        <canvas class="code-rain" aria-hidden="true"></canvas>
+        <div class="portrait" role="group" aria-label="Retrato interativo de Enzo">
+          <div class="portrait-depth">
+            <img class="portrait-normal" src="assets/enzo-preto-v6.jpg" alt="Retrato de Enzo com roupa preta, olhando para a câmera" width="1672" height="941" fetchpriority="high">
+            <img class="portrait-arrakis" src="assets/arrakis-rosto-refinado.jpg" alt="Retrato de Enzo com capuz e tubo respiratório em Arrakis" width="1672" height="941" aria-hidden="true">
+            <canvas class="sand-trail" aria-hidden="true"></canvas>
+          </div>
+        </div>
+
+        <svg class="signature" viewBox="17 16 580 247" role="img" aria-label="Assinatura original Enzo">
+          <path id="enzo-lettering" pathLength="100" d="M41 94 C18 80 39 56 69 41 C100 25 167 21 194 35 C214 46 182 60 154 59 C128 57 129 40 157 31 C170 27 180 26 191 28 C153 36 111 73 90 105 C70 134 79 151 107 144 C133 137 157 121 153 110 C147 94 106 109 79 132 C49 158 49 187 76 202 C111 220 168 196 201 163 C217 147 226 130 231 126 C220 145 209 168 196 187 C216 176 238 143 258 138 C269 135 277 141 272 154 C266 172 248 191 261 195 C274 199 293 181 305 170 C315 160 327 148 321 144 C317 140 333 139 344 140 C360 142 371 144 384 132 C368 152 351 168 332 182 C319 192 323 198 338 195 C353 191 374 175 381 185 C394 204 355 231 320 239 C298 244 278 240 283 229 C290 211 333 201 377 189 C412 178 429 163 445 151 C463 133 488 138 480 161 C472 183 448 205 433 192 C420 181 434 157 452 147 C468 137 473 145 484 151 C503 160 536 145 552 124"/>
+          <path class="signature-flourish" pathLength="100" d="M101 232 C183 217 241 210 308 213 C383 215 450 211 530 187 M506 105 l9-28 13 14 17-23 5 24 24-11-13 25 M510 110 C528 106 547 108 563 112"/>
+        </svg>
+
+        <div class="intro-actions">
+          <button class="portrait-toggle" type="button" aria-pressed="false">Revelar Arrakis</button>
+          <a class="scroll-link" href="#galeria">Role para explorar <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="gallery" aria-label="Galeria de Enzo e tecnologias">
+      <div class="gallery-sticky">
+        <canvas class="waves" aria-hidden="true"></canvas>
+        <div class="gallery-window">
+          <div class="gallery-track">
+            <figure class="shot" style="--angle:-8deg;--scatter:-15svh;--print:80%">
+              <span class="shot-word" data-reveal aria-hidden="true">React</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/01-jogando-ps5.jpg" width="1122" height="1402" alt="Enzo jogando PS5 com um controle branco" loading="eager" decoding="async">
+                  <span class="shot-caption">React</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:5deg;--scatter:14svh;--print:90%">
+              <span class="shot-word" data-reveal aria-hidden="true">TypeScript</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/02-no-capo-do-carro.jpg" width="1122" height="1402" alt="Enzo sentado no capô de um carro azul" loading="eager" decoding="async">
+                  <span class="shot-caption">TypeScript</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:9deg;--scatter:-7svh;--print:77%">
+              <span class="shot-word" data-reveal aria-hidden="true">CSS</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/03-encostado-na-moto.jpg" width="1122" height="1402" alt="Enzo encostado numa moto estacionada, com um capacete na mão" loading="eager" decoding="async">
+                  <span class="shot-caption">CSS</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:-5deg;--scatter:13svh;--print:89%">
+              <span class="shot-word" data-reveal aria-hidden="true">Next.js</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/04-programando-no-cafe.jpg" width="1122" height="1402" alt="Enzo com um notebook numa mesa de café" loading="lazy" decoding="async">
+                  <span class="shot-caption">Next.js</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:-10deg;--scatter:-12svh;--print:77%">
+              <span class="shot-word" data-reveal aria-hidden="true">Interfaces</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/05-fotografia-de-rua.jpg" width="1122" height="1402" alt="Enzo segurando uma câmera na rua" loading="lazy" decoding="async">
+                  <span class="shot-caption">Interfaces</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:7deg;--scatter:14svh;--print:84%">
+              <span class="shot-word" data-reveal aria-hidden="true">JavaScript</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/06-vista-de-sao-paulo.jpg" width="1122" height="1402" alt="Enzo num terraço com vista de São Paulo" loading="lazy" decoding="async">
+                  <span class="shot-caption">JavaScript</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:-5deg;--scatter:-10svh;--print:76%">
+              <span class="shot-word" data-reveal aria-hidden="true">Git</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/07-na-quadra.jpg" width="1122" height="1402" alt="Enzo com uma bola de basquete na quadra" loading="lazy" decoding="async">
+                  <span class="shot-caption">Git</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:10deg;--scatter:13svh;--print:86%">
+              <span class="shot-word" data-reveal aria-hidden="true">Vue.js</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/08-com-fones-no-estudio.jpg" width="1122" height="1402" alt="Enzo ajustando os fones num estúdio" loading="lazy" decoding="async">
+                  <span class="shot-caption">Vue.js</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:-7deg;--scatter:-14svh;--print:82%">
+              <span class="shot-word" data-reveal aria-hidden="true">Arduino</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/09-montando-um-prototipo.jpg" width="1122" height="1402" alt="Enzo montando um protótipo eletrônico" loading="lazy" decoding="async">
+                  <span class="shot-caption">Arduino</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:4deg;--scatter:13svh;--print:78%">
+              <span class="shot-word" data-reveal aria-hidden="true">SQL</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/ensaio/10-na-loja-de-discos.jpg" width="1122" height="1402" alt="Enzo segurando uma capa de vinil numa loja de discos" loading="lazy" decoding="async">
+                  <span class="shot-caption">SQL</span>
+                </div>
+              </div>
+            </figure>
+            <figure class="shot" style="--angle:-6deg;--scatter:-8svh;--print:88%">
+              <span class="shot-word" data-reveal aria-hidden="true">Supabase</span>
+              <div class="shot-frame">
+                <div class="shot-print">
+                  <img src="assets/enzo-vice-city.jpg" width="1122" height="1402" alt="Cena fictícia de Enzo com Lucia e Jason em uma lanchonete" loading="lazy" decoding="async">
+                  <span class="shot-caption">Supabase</span>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stordhub" class="stord" aria-labelledby="stord-title">
+      <div class="stord-sticky">
+        <div class="stord-orbit" aria-hidden="true"></div>
+        <div class="stord-track">
+          <div class="stord-panel stord-overview">
+            <div class="stord-content">
+              <h2 class="sr-only" id="stord-title">StordHub</h2>
+              <svg class="stord-mark" viewBox="92 176 1070 900" width="1070" height="900" aria-hidden="true">
+                <defs>
+                  <!-- Map the artwork to solid ink and the JPEG's white background to transparency. -->
+                  <filter id="stord-ink" x="0%" y="0%" width="100%" height="100%" color-interpolation-filters="sRGB">
+                    <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -4 0 0 0 3.6" result="silhouette"/>
+                    <feFlood class="stord-ink" result="paint"/>
+                    <feComposite in="paint" in2="silhouette" operator="in"/>
+                  </filter>
+                </defs>
+                <image href="assets/stordhub-logo.jpg" width="1254" height="1254" filter="url(#stord-ink)"/>
+              </svg>
+              <div class="stord-copy">
+                <p data-reveal>O StordHub é uma plataforma em desenvolvimento para criar e publicar projetos com ajuda de IA. A ideia é reunir seus trabalhos em um portfólio, descobrir projetos de outros criadores e se conectar com a comunidade.</p>
+                <a href="https://stordhub.vercel.app/" target="_blank" rel="noopener noreferrer">Conhecer o StordHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="stord-panel stord-publish">
+            <div class="stord-content">
+              <img class="stord-live-mark" src="assets/stordhub-marca.svg" width="110" height="112" alt="StordHub">
+              <div class="stord-copy">
+                <h3>Publique seu projeto agora mesmo</h3>
+                <a href="https://stordhub.vercel.app/upload" target="_blank" rel="noopener noreferrer">Publicar projeto <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="arcor" class="arcor" aria-labelledby="arcor-title">
+      <h2 id="arcor-title" class="sr-only">Arcor</h2>
+      <canvas class="arcor-snow" aria-hidden="true"></canvas>
+      <details class="arcor-content">
+        <summary aria-label="Ver detalhes do projeto da Arcor"><img class="arcor-logo" src="assets/arcor-entrada-logo.png" width="500" height="500" alt=""></summary>
+        <div class="arcor-panel">
+          <div class="arcor-panel-body">
+            <p>Projeto escolar em equipe que apresenta uma proposta de Natal para a Arcor em uma maquete 3D. No site, o público pode personalizar uma embalagem da Tortuguita com cores e ilustrações, como a árvore de Natal. O projeto ainda está em desenvolvimento.</p>
+            <a href="https://arcor-maquete-3d.vercel.app/" target="_blank" rel="noopener noreferrer">Ver projeto <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </details>
+    </section>
+    <section id="projetos" class="projects" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <h2 id="projects-title" data-reveal>Projetos</h2>
+        <a href="https://github.com/enzuu0" target="_blank" rel="noopener noreferrer">Ver GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="projects-shelf">
+        <ul class="project-deck" role="list">
+          <li class="project-card project-simple" data-project-title="GTA VI" data-project-summary="Site de uma apresentação escolar sobre três bibliotecas JavaScript, com exemplos e um visual de cidade neon." style="--card-tilt:-16deg;--card-drop:54px;--card-layer:1;--card-color:#3a193d">
+            <a href="https://github.com/enzuu0/gta-vi-bibliotecas-js" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img class="project-cover" src="assets/capa-gta-vi.jpg" alt="" width="640" height="960" decoding="async" loading="lazy"></span>
+              <span class="project-name">GTA VI</span>
+            </a>
+          </li>
+          <li class="project-card project-simple" data-project-title="Dashboard de Óbitos" data-project-summary="Projeto de um painel para apresentar dados de óbitos no Brasil em um formato visual." style="--card-tilt:-11deg;--card-drop:23px;--card-layer:2;--card-color:#25233f">
+            <a href="https://github.com/enzuu0/dashboard-obitos-brasil" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img class="project-cover" src="assets/capa-dashboard-obitos.jpg" alt="" width="640" height="960" decoding="async" loading="lazy"></span>
+              <span class="project-name">Dashboard de Óbitos</span>
+            </a>
+          </li>
+          <li class="project-card project-featured project-arcor" data-project-title="Arcor" data-project-summary="Maquete natalina em 3D e embalagens da Tortuguita personalizáveis com ilustrações como a árvore de Natal. Em desenvolvimento." style="--card-tilt:-6deg;--card-drop:7px;--card-layer:3">
+            <a href="https://arcor-maquete-3d.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img src="assets/arcor-entrada-logo.png" alt="" width="500" height="500" decoding="async" loading="lazy"></span>
+              <span class="project-name">Arcor</span>
+            </a>
+          </li>
+          <li class="project-card project-featured project-stord" data-project-title="StordHub" data-project-summary="Plataforma em desenvolvimento para criar e publicar projetos com ajuda de IA, montar um portfólio e conhecer outros criadores." style="--card-tilt:0deg;--card-drop:0px;--card-layer:4">
+            <a href="https://stordhub.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img src="assets/stordhub-logo.jpg" alt="" width="1254" height="1254" decoding="async" loading="lazy"></span>
+              <span class="project-name">StordHub</span>
+            </a>
+          </li>
+          <li class="project-card project-featured project-snow" data-project-title="Summit Line" data-project-summary="Jogo de snowboard arcade em pré-alpha, com controle da prancha e pistas em 3D." style="--card-tilt:6deg;--card-drop:7px;--card-layer:3">
+            <a href="https://github.com/enzuu0/snowboard-pre-alpha" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img class="project-cover" src="assets/summit-line-capa.jpg" alt="" width="1024" height="1536" decoding="async" loading="lazy"></span>
+              <span class="project-name">Summit Line <small>Snowboard</small></span>
+            </a>
+          </li>
+          <li class="project-card project-simple" data-project-title="Descarte de Lixo" data-project-summary="Trabalho escolar sobre a separação de resíduos e o descarte correto do lixo." style="--card-tilt:11deg;--card-drop:23px;--card-layer:2;--card-color:#19332f">
+            <a href="https://github.com/enzuu0/trabalho-descarte-de-lixo" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img class="project-cover" src="assets/capa-descarte.jpg" alt="" width="640" height="960" decoding="async" loading="lazy"></span>
+              <span class="project-name">Descarte de Lixo</span>
+            </a>
+          </li>
+          <li class="project-card project-simple" data-project-title="Petshop PWA" data-project-summary="Site de petshop com catálogo e orientações para instalar o aplicativo web no celular ou no computador." style="--card-tilt:16deg;--card-drop:54px;--card-layer:1;--card-color:#3b2631">
+            <a href="https://github.com/enzuu0/petshop-pwa" target="_blank" rel="noopener noreferrer">
+              <span class="project-face"><img class="project-cover" src="assets/capa-petshop.jpg" alt="" width="640" height="960" decoding="async" loading="lazy"></span>
+              <span class="project-name">Petshop PWA</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="project-info" aria-live="polite" aria-atomic="true" hidden>
+        <h3></h3>
+        <p></p>
+      </div>
+    </section>
+    <section id="contato" class="contact" aria-labelledby="contact-title">
+      <div class="contact-heading">
+        <h2 id="contact-title" data-reveal>Contato</h2>
+      </div>
+      <ul class="contact-links" role="list">
+        <li>
+          <a class="contact-link contact-mail" href="mailto:enzogadelha59@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"/>
+              <path d="m4 7 8 6 8-6"/>
+            </svg>
+            <span class="contact-name">E-mail</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-link contact-whatsapp" href="https://wa.me/5511915142953" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12.04 0a11.9 11.9 0 0 0-10.3 17.85L.05 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45h.01A11.9 11.9 0 0 0 12.04 0Zm0 21.8c-1.75 0-3.47-.46-4.97-1.35l-.36-.21-3.74.98 1-3.65-.24-.37a9.9 9.9 0 1 1 8.31 4.6Zm5.43-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07a8.1 8.1 0 0 1-2.39-1.48 8.86 8.86 0 0 1-1.65-2.05c-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.09 4.49.71.3 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.18-1.42-.07-.12-.27-.2-.57-.35Z"/>
+            </svg>
+            <span class="contact-name">WhatsApp</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-link contact-github" href="https://github.com/enzuu0" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .3a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.02-2.24c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.81 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.93.43.38.82 1.1.82 2.22l-.01 3.3c0 .32.21.7.82.58A12 12 0 0 0 12 .3Z"/>
+            </svg>
+            <span class="contact-name">GitHub</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
